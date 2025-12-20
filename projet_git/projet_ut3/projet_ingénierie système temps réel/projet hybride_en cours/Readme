@@ -1,0 +1,68 @@
+Projet de systèmes hybrides
+Modélisation de l’atterrissage d’un avion
+
+==================================================
+
+Contexte du projet
+
+Ce projet s’inscrit dans le cadre des projets de la formation initiale dans la spécialité
+Ingénierie des Systèmes Temps Réel.
+
+Le but principal de ce projet est de comprendre les systèmes hybrides, c’est-à-dire des
+systèmes combinant une partie continue (dynamique physique) et une partie discrète
+(machines à états), ainsi que de réaliser une simulation de ce type de système.
+
+==================================================
+
+Thème choisi
+
+Modélisation de l’atterrissage d’un avion.
+
+Ce thème permet d’étudier un système réel complexe comportant plusieurs phases de
+fonctionnement discrètes (descente, approche, atterrissage, roulage), couplées à une
+dynamique continue du mouvement.
+
+==================================================
+
+Hypothèses de travail
+
+Afin de simplifier la modélisation, les hypothèses suivantes sont adoptées :
+
+La forme de l’avion est assimilée à une capsule.
+
+Cette hypothèse permet d’éviter la prise en compte de l’angle créé avec l’axe x
+durant les différentes phases du mouvement.
+
+Le modèle est volontairement simplifié afin de se concentrer sur l’aspect hybride
+du système.
+
+==================================================
+
+Outils utilisés
+
+Dans le but d’améliorer les compétences en programmation, le choix a été fait
+d’utiliser Python à la place de MATLAB.
+
+Python est utilisé pour :
+
+la modélisation des machines à états (partie discrète),
+
+la simulation de la dynamique continue,
+
+la visualisation éventuelle des trajectoires.
+
+==================================================
+
+Travail facultatif
+
+Un travail complémentaire consiste à développer un simulateur Python permettant
+de modéliser les différentes phases de la trajectoire de l’avion en combinant la
+partie discrète et la partie continue du système.
+
+==================================================
+
+Date de présentation
+
+6 janvier 2026
+
+==================================================
